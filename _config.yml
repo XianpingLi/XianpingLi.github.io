@@ -1,0 +1,24 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+excerpt_separator: '<!-- more -->'
+# highlighter: pygments
+
+# Setup
+title:               Xianping Li
+tagline:             'A learner'
+description:         'A PhD student major in spatial ecology.'
+url:                
+baseurl:             ''
+paginate:            10
+
+# About/contact
+author:
+  name:              Xianping Li
+  url:               http://xianpingli.github.io/
+  email:             leexianping@gmail.com
+
+# Custom vars
+version:             
