@@ -34,7 +34,7 @@ eire <- readShapePoly(system.file("etc/shapes/eire.shp", package="spdep")[1],
     ID="names", proj4string=CRS("+proj=utm +zone=30 +units=km"))
 {% endhighlight %}
 
-### 1. Build a neighbors list.
+### 1. Build a neighbors list
 
 {% highlight r linenos %}
 eire.nb <- poly2nb(eire)
@@ -43,14 +43,14 @@ eire.nb <- poly2nb(eire)
 plot(eire)
 plot(eire.nb, coordinates(eire), add=TRUE, lwd=2, col='blue')
 {% endhighlight %}
-<img src="/images/NB.jpg" alt="fig3" />
+<img src="/images/NB.png" alt="fig3" />
 **Figure 3** Plot of neighbors list.
 
 ### 2. Create a spatial weights matrix for the neighbors lists
 
 {% highlight r linenos %}
 # Row-standardized weights matrix
-eire.nb.w<-nb2listw(eire.nb)
+eire.nb.w <- nb2listw(eire.nb)
 {% endhighlight %}
 
 ### 3. Run statistical test to examine SA
