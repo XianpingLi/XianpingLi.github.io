@@ -49,7 +49,7 @@ species$x <- rnorm(dim(species)[1], mean = 50, sd = 10)
 Actually prune a built tree from Pyron & Wiens (2011)<sup>[4]</sup>. 
  
 {% highlight r linenos %}
-# Loading library
+# Load library
 library(ape)
 supertree <- read.tree("amphibia.tre")
 
@@ -75,7 +75,7 @@ plot(tree_am)
 Use the indices of Pagel’s lambda and Blomberg’s K. See Pagel (1999)<sup>[5]</sup> and Blomberg, <em>et al</em>. (2003)<sup>[6]</sup> for details.
 
 {% highlight r linenos %}
-# Loading library
+# Load library
 library(phytools)
 
 # Named the variable
