@@ -71,7 +71,6 @@ poly
 ## max values  : 0500000US72153,    72,    840,  Ziebach,  Parish, 145504.789
 
 # Load raster data
-library(raster)
 alt <- raster("alt.bil") # see help file for more information
 
 alt
