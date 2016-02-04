@@ -2,6 +2,7 @@
 layout: post
 title: Parallel computing in R
 ---
+
 **R** was born to be single threaded, so it will be slow for big data sets or heavy time consuming computations. We can use some third-party packages to parallelize our task on multiple cores or machines. Normally, we define the number of cores, and initialize the workers which computations can be sent to first. Then split the task into pieces and distribute the sub-tasks to workers. Shut down the cluster and do more analysis on the results at last. Here, I use the functions in package *snowfall* which depends on *snow* to give an example.
 
 <!-- more -->
