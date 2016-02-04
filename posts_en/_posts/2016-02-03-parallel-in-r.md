@@ -71,4 +71,5 @@ mean(unlist(parResult))
 ## [1] -0.02693764
 
 {% endhighlight %}
+
 Some packages have build-in functions can do parallel computations. For example, *pdredge* (MuMIn) can do model selection in parallel. 
