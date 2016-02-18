@@ -58,3 +58,7 @@ body {
 .highlight pre {
     padding:0;
 }
+
+img {
+    margin:0 auto;
+}
